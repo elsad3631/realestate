@@ -10,15 +10,16 @@
                 <ul>
                   <li>
                     <i class="las la-map-marker-alt"></i>
-                    1247/Plot No. 39, 15th Phase, Colony, Kkatpally, Hyderabad
+                    Viale Ungheria, 91, Zagarolo, Roma, Italia
                   </li>
                   <li>
                     <i class="las la-phone-volume"></i>
-                    +91 987-654-3210 +91 123-456-7890
+                    +39 333/9123388  
+                    +39 06/95595263
                   </li>
                   <li>
-                    <i class="las la-map-marker-alt"></i>
-                    info@example.com info@example.com
+                    <i class="las la-mail-bulk"></i>
+                    lucaprocesi@gmail.com 
                   </li>
                 </ul>
               </div>

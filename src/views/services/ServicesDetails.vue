@@ -60,14 +60,14 @@
             <div class="sticky-top">
               <div class="widget ext-sidebar-menu">
                 <ul class="menu">
-                  <li class="active">
+                  <!-- <li class="active">
                     <RouterLink to="?">Interior Design</RouterLink>
                   </li>
                   <li><RouterLink to="?">Floor Plan Design</RouterLink></li>
                   <li><RouterLink to="?">Construction</RouterLink></li>
                   <li><RouterLink to="?">Furniture Production</RouterLink></li>
                   <li><RouterLink to="?">Architecture Design</RouterLink></li>
-                  <li><RouterLink to="?">24X 7 Support</RouterLink></li>
+                  <li><RouterLink to="?">24X 7 Support</RouterLink></li> -->
                 </ul>
               </div>
             </div>

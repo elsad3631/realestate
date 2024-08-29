@@ -78,7 +78,7 @@
           <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 aos-item">
             <div class="widget widget_services">
               <h4 class="footer-title">Our Service</h4>
-              <ul>
+            <!--   <ul>
                 <li><RouterLink to="?">Floor Plan Design</RouterLink></li>
                 <li><RouterLink to="?">Furniture Work</RouterLink></li>
                 <li><RouterLink to="?">Construction Work</RouterLink></li>
@@ -86,7 +86,7 @@
                 <li><RouterLink to="?">Interior Designing</RouterLink></li>
                 <li><RouterLink to="?">Planning Solution</RouterLink></li>
                 <li><RouterLink to="?">24x7 Support</RouterLink></li>
-              </ul>
+              </ul> -->
             </div>
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 aos-item">

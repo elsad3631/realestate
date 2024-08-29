@@ -1,6 +1,6 @@
 <template>
   <!-- @vue-skip -->
-  <div class="container">
+  <!-- <div class="container">
     <div class="section-head style-1 text-center">
       <h6 class="sub-title text-primary">TESTIMONIAL</h6>
       <h2 class="title">What Our Clients Says</h2>
@@ -71,7 +71,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script lang="ts">

@@ -9,7 +9,7 @@
         <div class="container clearfix">
           <div class="logo-header mostion logo-light">
             <RouterLink to="/"
-              ><img class="header_logo2" src="@/assets/images/TH-3.png" alt=""
+              ><img class="header_logo2" src="@/assets/images/TH-3.jpg" alt=""
             /></RouterLink>
           </div>
           <button
@@ -40,7 +40,7 @@
           <div class="header-nav navbar-collapse justify-content-end">
             <div class="logo-header">
               <RouterLink to="/" class="logo-dark"
-                ><img src="@/assets/images/logo-3.png" alt=""
+                ><img src="@/assets/images/TH-4.jpg" alt=""
               /></RouterLink>
             </div>
             <Menu />

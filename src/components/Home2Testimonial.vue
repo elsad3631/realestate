@@ -14,11 +14,11 @@
       >
         <div class="testimonial-2">
           <div class="testimonial-text">
-            <p>
+            <!-- <p>
               Aliquam a arcu dolor. Sed malesuada convallis euismod. Class aptent taciti sociosqu ad
               litora torquent per conubia nostra, per inceptos himenaeos. Ut dui leo, posuere
               pulvinar metus vitae, condimentum tempus ipsum.
-            </p>
+            </p> -->
           </div>
           <div class="testimonial-detail">
             <div class="testimonial-pic">

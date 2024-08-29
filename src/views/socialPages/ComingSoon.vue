@@ -65,7 +65,7 @@
       <div class="contact-box">
         <div class="logo-contact logo-dark">
           <RouterLink to="/"
-            ><img class="header_logo" src="@/assets/images/logo.png" alt=""
+            ><img class="header_logo" src="@/assets/images/TH-4.jpg" alt=""
           /></RouterLink>
         </div>
         <div class="m-b50 contact-text">

@@ -65,7 +65,7 @@
     <section class="dz-content-bx style-3">
       <CounterVideo />
     </section>
-    <section
+    <!-- <section
       class="content-inner-2"
       :style="` background-image: url(${bg2});
         background-position: right bottom;
@@ -73,8 +73,8 @@
         background-repeat: no-repeat;`"
     >
       <Testimonial />
-    </section>
-    <section
+    </section> -->
+    <!-- <section
       class="content-inner-2"
       :style="`background-image: url(${bg1});
             background-position: left top;
@@ -84,7 +84,7 @@
       <div class="container-fluid">
         <Testimonial2 />
       </div>
-    </section>
+    </section> -->
     <HomeFaq />
     <section class="section-full dz-content-bx style-2 text-white">
       <div
@@ -107,7 +107,7 @@ import Testimonial from '@/components/Testimonial.vue'
 import Testimonial2 from '@/components/Testimonial2.vue'
 import HomeFaq from '@/components/HomeFaq.vue'
 import OurStrategy from '@/components/OurStrategy.vue'
-import bnr6 from '@/assets/images/banner/bnr6.jpg'
+import bnr6 from '@/assets/images/banner/bnr10.jpg'
 import bg2 from '@/assets/images/background/bg2.png'
 import bg1 from '@/assets/images/background/bg1.png'
 import bg2_1 from '@/assets/images/background/bg2-1.png'

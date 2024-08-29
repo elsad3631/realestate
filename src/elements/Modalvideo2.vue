@@ -1,5 +1,5 @@
 <template>
-  <div
+  <!-- <div
     class="modal fade"
     id="exampleModalToggle"
     aria-hidden="true"
@@ -20,8 +20,8 @@
         ></iframe>
       </div>
     </div>
-  </div>
-
+  </div> -->
+<!-- 
   <section class="dz-content-bx style-5 content-inner-1">
     <div class="dz-content-inner">
       <div class="container">
@@ -47,7 +47,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 </template>
 
 <script lang="ts">

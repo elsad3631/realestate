@@ -1,5 +1,5 @@
 <template>
-  <Swiper
+  <!-- <Swiper
     class="swiper-container swiper-team"
     :slides-per-view="5"
     :space-between="30"
@@ -44,7 +44,7 @@
         </div>
       </div>
     </SwiperSlide>
-  </Swiper>
+  </Swiper> -->
 </template>
 
 <script lang="ts">

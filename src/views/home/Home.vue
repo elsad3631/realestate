@@ -18,12 +18,12 @@
           <div class="col-lg-6 m-b30">
             <div class="dz-media">
               <img
-                src="@/assets/images/about/pic6.jpg"
+                src="@/assets/images/about/pic12.jpg"
                 alt=""
                 class="img1 aos-item aos-init aos-animate"
               />
               <img
-                src="@/assets/images/about/pic7.jpg"
+                src="@/assets/images/about/pic11.jpg"
                 alt=""
                 class="img2 aos-item aos-init aos-animate"
               />
@@ -118,8 +118,8 @@ import ClientLogo from '@/elements/ClientLogo.vue'
 import Home3OurTeam from '@/components/Home3OurTeam.vue'
 import Home3Testimonial from '@/components/Home3Testimonial.vue'
 import Home3Blog from '@/components/Home3Blog.vue'
-import logoWhite from '@/assets/images/TH-3.png'
-import logo from '@/assets/images/logo-3.png'
+import logoWhite from '@/assets/images/TH-3.jpg'
+import logo from '@/assets/images/TH-4.jpg'
 import { RouterLink } from 'vue-router'
 
 export default defineComponent({

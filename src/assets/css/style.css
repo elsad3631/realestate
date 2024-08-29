@@ -15684,7 +15684,7 @@ button:focus {
 .dz-img-overlay12:before,
 .dz-img-overlay12:after {
   content: '';
-  background: #282d32;
+  background: #106575;
   position: absolute;
   left: 0;
   top: 0;
@@ -16212,7 +16212,7 @@ button:focus {
   width: 30%;
   height: 100%;
   content: '';
-  background: #323232; /* var(--rgba-primary-9); */
+  background: #106575; /* var(--rgba-primary-9); */
   position: absolute;
   left: 0;
   top: 0;
@@ -20954,7 +20954,7 @@ ul a.rsswidget:hover {
   transition: all 0.8s;
 }
 .icon-bx-wraper.style-3:hover {
-  background: #323232;
+  background: #106575;
   transform: translateY(-10px);
   -moz-transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
@@ -21204,7 +21204,7 @@ ul a.rsswidget:hover {
 }
 .icon-bx-wraper.style-9:active,
 .icon-bx-wraper.style-9:hover {
-  background: var(--primary);
+  background:#106575;
   transform: translateY(-10px);
   -moz-transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
@@ -22927,7 +22927,7 @@ ul a.rsswidget:hover {
 /* Silder Tow */
 .silder-three {
   position: relative;
-  background: #323232;
+  background: #106575;
 }
 .silder-three .swiper-slide {
   position: relative;
@@ -22939,7 +22939,7 @@ ul a.rsswidget:hover {
   width: 22%;
   height: 100%;
   position: absolute;
-  background: url(../images/main-slider/slider3/pattren.png);
+  background: url(../images/main-slider/slider3/pattren2.png);
   background-repeat: no-repeat;
   top: 0;
   z-index: -1;
@@ -26697,7 +26697,7 @@ pre {
 }
 
 .site-header.style-2 .main-bar {
-  background: #323232;
+  background: #106575;
 }
 
 .site-header.style-2 .top-bar {
@@ -27735,7 +27735,7 @@ footer .ft-calltoaction .title {
 }
 .site-footer.style-1 .footer-bottom {
   padding: 20px 0;
-  background-color: #212121;
+  background-color: #106575;
 }
 .site-footer.style-1 .footer-logo a {
   display: inline-block;
@@ -27771,7 +27771,7 @@ footer .ft-calltoaction .title {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #212529;
+  background: #106575;
   opacity: 0.9;
   z-index: -1;
 }
@@ -27799,7 +27799,7 @@ footer .ft-calltoaction .title {
 }
 .site-footer.style-2 .footer-bottom {
   padding: 20px 0;
-  background-color: #212121;
+  background-color: #106575;
 }
 .site-footer.style-2 .footer-bottom .footer-link li:before {
   display: none;

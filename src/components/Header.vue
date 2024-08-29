@@ -1,5 +1,5 @@
 <template>
-  <header class="site-header mo-left header style-1" style="color: #323232;">
+  <header class="site-header mo-left header style-1" >
     <!-- Main Header -->
     <div
       :class="`sticky-header main-bar-wraper navbar-expand-lg ${headerPosition ? 'is-fixed' : ''}`"

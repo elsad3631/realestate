@@ -12,7 +12,7 @@
           prevEl: '.btn-prev',
           nextEl: '.btn-next'
         }"
-        :autoplay="{ delay: 1500 }"
+        :autoplay="{ delay: 4000 }"
       >
         <SwiperSlide class="swiper-slide" v-for="({ img }, ind) in mainSlider" :key="ind">
           <div class="silder-content" data-swiper-parallax="-40%">
@@ -26,7 +26,10 @@
                       nell'ambito di organizzazioni SIT
                     </h4>
                     <p>
-                      Operiamo tramite sistemi informativi computerizzati (GIS) con acquisizione, registrazione, analisi, per visualizzazione e restituzione di informazioni derivanti da dati geografici (geo-riferiti). Mappature con droni, telecamere 360°, misurazioni GPS. 
+                      Operiamo tramite sistemi informativi computerizzati (GIS)
+                      con acquisizione, registrazione, analisi, per visualizzazione
+                      e restituzione di informazioni derivanti da dati geografici 
+                      (geo-riferiti). Mappature con droni, telecamere 360°, misurazioni GPS. 
                     </p>
                     <div>
                       <RouterLink
@@ -73,9 +76,9 @@
 import { defineComponent } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Navigation, Pagination, Autoplay, Parallax } from 'swiper/modules'
-import slide_pic1 from '@/assets/images/main-slider/slider3/pic1.jpg'
-import slide_pic2 from '@/assets/images/main-slider/slider3/pic2.jpg'
-import slide_pic3 from '@/assets/images/main-slider/slider3/pic3.jpg'
+import slide_pic1 from '@/assets/images/main-slider/slider3/home-Image1.jpg'
+import slide_pic2 from '@/assets/images/main-slider/slider3/home-Image2.jpg'
+import slide_pic3 from '@/assets/images/main-slider/slider3/home-Image3.jpg'
 
 export default defineComponent({
   components: { Swiper, SwiperSlide },

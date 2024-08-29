@@ -1,10 +1,10 @@
 <template>
   <div class="page-content bg-white">
-    <CommonBanner :img="bnr3" title="About Us" text="About Us" />
+    <CommonBanner :img="bnr3" title="Chi siamo" text="Chi siamo" />
     <section class="section-full content-inner about-bx2">
       <HomeAbout />
     </section>
-    <section class="content-inner-2">
+    <!-- <section class="content-inner-2">
       <div class="container">
         <div class="section-head style-1 text-center">
           <h6 class="sub-title text-primary">WORK PROCESS</h6>
@@ -20,8 +20,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="content-inner-2" :style="`background-image: url(${bg1});`">
+    </section> -->
+    <!-- <section class="content-inner-2" :style="`background-image: url(${bg1});`">
       <div class="container">
         <div class="row section-head-bx align-items-center">
           <div class="col-md-8">
@@ -38,8 +38,8 @@
         </div>
       </div>
       <OurPortfolio />
-    </section>
-    <section
+    </section> -->
+    <!-- <section
       class="content-inner-2"
       :style="` background-image: url(${backgrouBg2});
         background-position: right bottom;
@@ -47,12 +47,12 @@
         background-repeat: no-repeat;`"
     >
       <Testimonial />
-    </section>
-    <section class="content-inner-2" :style="`background-image: url(${bg1});`">
+    </section> -->
+    <!-- <section class="content-inner-2" :style="`background-image: url(${bg1});`">
       <div class="container-fluid">
         <Testimonial2 />
       </div>
-    </section>
+    </section> -->
     <HomeFaq />
   </div>
 </template>
@@ -60,7 +60,7 @@
 <script lang="ts">
 import CommonBanner from '@/elements/CommonBanner.vue'
 import { defineComponent } from 'vue'
-import bnr3 from '@/assets/images/banner/bnr3.jpg'
+import bnr3 from '@/assets/images/banner/bnr9.jpg'
 import HomeAbout from '@/components/HomeAbout.vue'
 import OurPortfolio from '@/components/OurPortfolio.vue'
 import bg1 from '@/assets/images/background/bg1.png'

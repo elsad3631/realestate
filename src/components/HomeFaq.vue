@@ -6,13 +6,12 @@
       background-size: 100%;
       background-repeat: no-repeat;`"
   >
-    <div class="container">
+    <!-- <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 m-b30 aos-item">
           <div class="twentytwenty-img-area">
             <div class="twentytwenty-container">
               <ImgComparisonSlider class="compair-slide">
-                <!-- eslint-disable -->
                 <img slot="first" style="width: 100%" src="@/assets/images/pic2-1.jpg" />
                 <img slot="second" style="width: 100%" src="@/assets/images/pic2-2.jpg" />
                 <svg
@@ -156,7 +155,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 </template>
 

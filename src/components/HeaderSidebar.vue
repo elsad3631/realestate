@@ -3,19 +3,19 @@
     <div class="contact-box">
       <div class="logo-contact logo-dark">
         <RouterLink to="?"
-          ><img class="header_logo" src="@/assets/images/logo.png" alt=""
+          ><img class="header_logo" src="@/assets/images/TH-4.jpg" alt=""
         /></RouterLink>
       </div>
       <div class="m-b50 contact-text">
         <div class="dz-title">
-          <h4>About US</h4>
+          <h4>Chi siamo</h4>
           <div class="dz-separator style-1 text-primary mb-0"></div>
         </div>
-        <p>
+        <!-- <p>
           Aliquam erat volutpat. Nunc erat massa, porttitor vel egestas sit amet, tristique at
           massa. Donec posuere odio neque, in ultricies lorem aliquet eu. Donec venenatis libero a
           nulla placerat egestas.
-        </p>
+        </p> -->
         <RouterLink to="/about-us" class="btn btn-primary btn-sm btn-rounded">READ MORE</RouterLink>
       </div>
       <div class="dz-title">

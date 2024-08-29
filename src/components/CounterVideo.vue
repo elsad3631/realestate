@@ -1,5 +1,5 @@
 <template>
-  <div class="dz-content-inner">
+  <!-- <div class="dz-content-inner">
     <div class="row">
       <div class="col-xl-10 col-lg-12 counter-info aos-item">
         <div class="row">
@@ -34,14 +34,14 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import CountUp from 'vue-countup-v3'
 import { RouterLink } from 'vue-router'
-
+/* 
 export default defineComponent({
   name: 'counterVideo',
   components: { CountUp, RouterLink },
@@ -55,6 +55,6 @@ export default defineComponent({
       ]
     }
   }
-})
+}) */
 </script>
 

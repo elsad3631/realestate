@@ -1,5 +1,5 @@
 <template>
-  <section class="content-inner-1">
+  <!-- <section class="content-inner-1">
     <div class="container">
       <div class="section-head style-1 text-center">
         <h6 class="sub-title text-primary">Brands</h6>
@@ -27,7 +27,7 @@
         </SwiperSlide>
       </Swiper>
     </div>
-  </section>
+  </section> -->
 </template>
 
 <script lang="ts">

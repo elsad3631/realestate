@@ -41,7 +41,7 @@
 import { defineComponent } from 'vue'
 import CountUp from 'vue-countup-v3'
 import { RouterLink } from 'vue-router'
-/* 
+
 export default defineComponent({
   name: 'counterVideo',
   components: { CountUp, RouterLink },
@@ -55,6 +55,6 @@ export default defineComponent({
       ]
     }
   }
-}) */
+})
 </script>
 

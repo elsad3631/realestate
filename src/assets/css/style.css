@@ -14418,7 +14418,7 @@ strong,
   padding: 65px 0px 45px;
   position: relative;
   background: #f7f9ef;
-  background-image: url('./../images/hero/5.png');
+  /* background-image: url('./../images/hero/5.png'); */
   background-size: cover;
   background-position: center;
 }
@@ -18208,13 +18208,13 @@ ul.grid-2 li {
   top: 0;
 }
 .download-file ul li a i:before {
-  background-image: url(../images/icon/download-icon2.png);
+  /* background-image: url(../images/icon/download-icon2.png); */
   -webkit-animation: download1 2s ease infinite;
   animation: download1 2s ease infinite;
 }
-.download-file ul li a i:after {
+/* .download-file ul li a i:after {
   background-image: url(../images/icon/download-icon1.png);
-}
+} */
 .download-file ul li a .text {
   display: inline;
   position: relative;
@@ -22754,7 +22754,7 @@ ul a.rsswidget:hover {
   z-index: 1;
 }
 .portfolio-2:after {
-  background-image: url(../images/main-slider/bg-line-1.png);
+  /* background-image: url(../images/main-slider/bg-line-1.png); */
   background-repeat: no-repeat;
   background-size: 100%;
   position: absolute;
@@ -22939,7 +22939,7 @@ ul a.rsswidget:hover {
   width: 22%;
   height: 100%;
   position: absolute;
-  background: url(../images/main-slider/slider3/pattren2.png);
+  /* background: url(../images/main-slider/slider3/pattren2.png); */
   background-repeat: no-repeat;
   top: 0;
   z-index: -1;
@@ -23137,7 +23137,7 @@ ul a.rsswidget:hover {
   z-index: 1;
 }
 .portfolio-2:after {
-  background-image: url(../images/main-slider/bg-line-1.png);
+  /* background-image: url(../images/main-slider/bg-line-1.png); */
   background-repeat: no-repeat;
   background-size: 100%;
   position: absolute;
@@ -27263,7 +27263,7 @@ pre {
 }
 .dz-bnr-inr.style-2:after {
   content: '';
-  background-image: url(../images/banner/pattern1.png);
+  /* background-image: url(../images/banner/pattern1.png); */
   background-size: cover;
   z-index: 0;
   height: 100%;
@@ -27297,7 +27297,7 @@ pre {
 
 .dz-bnr-inr.style-3:after {
   content: '';
-  background-image: url(../images/banner/pattern2.png);
+  /* background-image: url(../images/banner/pattern2.png); */
   background-position: center 35%;
   background-size: cover;
   z-index: 0;

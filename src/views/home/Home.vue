@@ -23,7 +23,7 @@
                 class="img1 aos-item aos-init aos-animate"
               />
               <img
-                src="@/assets/images/about/pic11.jpg"
+                src="@/assets/images/about/Pic11.jpg"
                 alt=""
                 class="img2 aos-item aos-init aos-animate"
               />

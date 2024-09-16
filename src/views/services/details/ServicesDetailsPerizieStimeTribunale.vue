@@ -14,7 +14,7 @@
           <div class="col-lg-6 m-b30 aos-item aos-init aos-animate">
             <div class="section-head style-2">
               <!-- <h6 class="sub-title text-primary">About Us</h6> -->
-              <h2 class="title m-b20">Perizie, Stime e Tribunale</h2>
+              <h2 class="title m-b10">Perizie, Stime e Tribunale</h2>
                <p>•	Perizie immobiliari</p>
                <p>•	Stime di valore di mercato</p> 
                <p>•	Perizie giurate per tribunali</p>

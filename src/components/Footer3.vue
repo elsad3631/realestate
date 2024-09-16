@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-lg-3 col-12 aos-item">
             <div class="widget widget_about">
-              <h4 class="footer-title">CONTACT</h4>
+              <h4 class="footer-title">CONTATTI</h4>
               <div class="widget_getintuch">
                 <ul>
                   <li>
@@ -27,7 +27,7 @@
           </div>
           <div class="offset-lg-1 col-lg-2 col-sm-4 col-6 aos-item">
             <div class="widget widget_services">
-              <h4 class="footer-title">OUR LINKS</h4>
+              <h4 class="footer-title">LINKS</h4>
               <ul>
                 <li><RouterLink to="/">Home</RouterLink></li>
                 <li><RouterLink to="/about-us">Chi Siamo</RouterLink></li>

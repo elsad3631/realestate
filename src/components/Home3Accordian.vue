@@ -4,10 +4,10 @@
       <div class="row">
         <div class="col-lg-6 aos-item">
           <div class="section-head style-2">
-            <h6 class="sub-title text-primary">Services</h6>
-            <h2 class="title">Frequently Asked Question</h2>
+            <!-- <h6 class="sub-title text-primary">Services</h6>
+            <h2 class="title">Frequently Asked Question</h2> -->
           </div>
-          <div class="accordion dz-accordion accordion-sm style-1" id="accordionFaq">
+          <div class="accordion dz-accordion accordion-sm style-1 mt-5" id="accordionFaq">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <RouterLink
@@ -18,7 +18,7 @@
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  Is Your Service safe to use?
+                  PROGETTAZIONI
                   <span class="toggle-close"></span>
                 </RouterLink>
               </h2>
@@ -30,8 +30,9 @@
               >
                 <div class="accordion-body">
                   <p class="m-b0">
-                    There are many variations of passages of Lorem Ipsum available, but the majority
-                    have suffered alteration in some form, by injected humour.
+                    Offriamo servizi di progettazione per nuovi edifici e ristrutturazioni.
+                    Dall’ideazione alla realizzazione, gestiamo tutte le fasi progettuali,
+                    garantendo soluzioni innovative e funzionali.
                   </p>
                 </div>
               </div>
@@ -46,7 +47,7 @@
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Why should I use your service?
+                  EDILIZIA
                   <span class="toggle-close"></span>
                 </RouterLink>
               </h2>
@@ -58,8 +59,9 @@
               >
                 <div class="accordion-body">
                   <p class="m-b0">
-                    There are many variations of passages of Lorem Ipsum available, but the majority
-                    have suffered alteration in some form, by injected humour.
+                    Coordiniamo cantieri edili, dal recupero di edifici a nuove costruzioni.
+                    Gestione pratiche tecniche, permessi,
+                    e supervisione lavori per garantire qualità e conformità.
                   </p>
                 </div>
               </div>
@@ -74,7 +76,7 @@
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  How can I see my passwords later?
+                  INVESTIMENTI
                   <span class="toggle-close"></span>
                 </RouterLink>
               </h2>
@@ -86,13 +88,14 @@
               >
                 <div class="accordion-body">
                   <p class="m-b0">
-                    There are many variations of passages of Lorem Ipsum available, but the majority
-                    have suffered alteration in some form, by injected humour.
+                    Consulenza specializzata per investimenti nel settore immobiliare,
+                    inclusi acquisti all’asta.
+                    Analisi di mercato e opportunità per massimizzare il rendimento del tuo capitale.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <!-- <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
                 <RouterLink
                   to="?"
@@ -119,7 +122,7 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col-lg-6">

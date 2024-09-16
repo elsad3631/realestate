@@ -82,7 +82,14 @@ export default defineComponent({
       //     { child: 'Services Details', to: '/services-details' }
       //   ]
       // },
-      { menu: 'I nostri servizi', className: 'menu', to: '/services' },
+      { menu: 'I nostri servizi', subMenu: [
+          { child: 'Pratiche Edilizie', to: '/pratiche-edilizie' },
+           { child: 'Pratiche Catastali', to: '/pratiche-catastali' },
+           { child: 'Perizie, Stime e Tribunale', to: '/perizie-stime-tribunale' },
+           { child: 'Investimenti Immobiliari', to: '/investimenti-immobiliari' },
+           { child: 'Ristrutturazioni e Servizi Finanziari', to: '/ristrutturazioni-servizi-finanziari' },
+           { child: 'Servizi Vari', to: '/servizi-vari' }
+         ] },
       { menu: 'Chi siamo', className: 'menu', to: '/about-us' },
       // {
       //   menu: 'Blog',

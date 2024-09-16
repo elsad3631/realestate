@@ -4,7 +4,7 @@
     <section class="content-inner service-area">
       <div class="container">
         <div class="section-head style-2 text-center">
-          <h6 class="sub-title text-primary">I nostri migliori servizi</h6>
+          <h6 class="sub-title text-primary"><img src="@/assets/images/banner/bnr12Home.jpg" /></h6>
           <h2 class="title">
             Servizi e consulenze
           </h2>
@@ -12,7 +12,7 @@
         <Home3Services />
       </div>
     </section>
-    <section class="content-inner-3">
+    <!-- <section class="content-inner-3">
       <div class="container">
         <div class="row align-items-center about-bx4">
           <div class="col-lg-6 m-b30">
@@ -31,20 +31,20 @@
           </div>
           <div class="col-lg-6 m-b30 aos-item aos-init aos-animate">
             <div class="section-head style-2">
-              <!-- <h6 class="sub-title text-primary">About Us</h6> -->
+              <h6 class="sub-title text-primary">About Us</h6>
               <h2 class="title m-b20">Progettazione e ristrutturazioni</h2>
               <p>
                 Affidati ai nostri professionisti per la progettazione e ristrutturazione di case, ville, uffici, negozi, ma anche impianti, edifici industriali, alberghi, strutture sanitarie e supermercati. Da oltre 40 anni operiamo in vari settori grazie un team completo: architetti, ingegneri, geometri ed altri esperti in materia di edilizia.
               </p>
             </div>
-            <!-- <RouterLink to="/blog-details" class="btn btn-primary btn-rounded hover-icon">
+            <RouterLink to="/blog-details" class="btn btn-primary btn-rounded hover-icon">
               <span>READ MORE</span>
               <i class="fas fa-arrow-right"></i>
-            </RouterLink> -->
+            </RouterLink>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- <section class="content-inner-2">
       <div class="container">
         <div class="section-head style-2 text-center">
@@ -53,8 +53,8 @@
         </div>
         <Home3About />
       </div>
-    </section>
-    <Home3Accordian /> -->
+    </section> -->
+    <Home3Accordian />
     <!-- <Modalvideo2 /> -->
     <!-- <ClientLogo /> -->
     <!-- <section class="content-inner-1 overflow-hidden">
@@ -118,7 +118,7 @@ import ClientLogo from '@/elements/ClientLogo.vue'
 import Home3OurTeam from '@/components/Home3OurTeam.vue'
 import Home3Testimonial from '@/components/Home3Testimonial.vue'
 import Home3Blog from '@/components/Home3Blog.vue'
-import logoWhite from '@/assets/images/TH-3.jpg'
+import logoWhite from '@/assets/images/TH-6.jpg'
 import logo from '@/assets/images/TH-4.jpg'
 import { RouterLink } from 'vue-router'
 

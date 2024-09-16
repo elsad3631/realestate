@@ -3,7 +3,7 @@
     <div class="contact-box">
       <div class="logo-contact logo-dark">
         <RouterLink to="?"
-          ><img class="header_logo" src="@/assets/images/TH-4.jpg" alt=""
+          ><img class="header_logo" src="@/assets/images/TH-6.jpg" alt=""
         /></RouterLink>
       </div>
       <div class="m-b50 contact-text">
@@ -11,18 +11,19 @@
           <h4>Chi siamo</h4>
           <div class="dz-separator style-1 text-primary mb-0"></div>
         </div>
-        <!-- <p>
-          Aliquam erat volutpat. Nunc erat massa, porttitor vel egestas sit amet, tristique at
-          massa. Donec posuere odio neque, in ultricies lorem aliquet eu. Donec venenatis libero a
-          nulla placerat egestas.
-        </p> -->
-        <RouterLink to="/about-us" class="btn btn-primary btn-sm btn-rounded">READ MORE</RouterLink>
+         <RouterLink to="/about-us" class="btn btn-primary btn-sm btn-rounded">READ MORE</RouterLink>
       </div>
       <div class="dz-title">
-        <h4>Gallery</h4>
+        <h4>I Nostri Servizi</h4>
         <div class="dz-separator style-1 text-primary mb-0"></div>
       </div>
-      <div class="widget bg-white widget_gallery" style="z-index: 99999">
+      <RouterLink to="/pratiche-edilizie" class="btn btn-primary btn-sm btn-rounded">Pratiche Edilizie</RouterLink>
+      <RouterLink to="/pratiche-catastali" class="btn btn-primary btn-sm btn-rounded">Pratiche Catastali</RouterLink>
+      <RouterLink to="/perizie-stime-tribunale" class="btn btn-primary btn-sm btn-rounded">Perizie, Stime e Tribunale</RouterLink>
+      <RouterLink to="/investimenti-immobiliari" class="btn btn-primary btn-sm btn-rounded">Investimenti Immobiliari</RouterLink>
+      <RouterLink to="/ristrutturazioni-servizi-finanziari" class="btn btn-primary btn-sm btn-rounded">Ristrutturazioni e Servizi Finanziari</RouterLink>
+      <RouterLink to="/servizi-vari" class="btn btn-primary btn-sm btn-rounded">Servizi Vari</RouterLink>
+      <!-- <div class="widget bg-white widget_gallery" style="z-index: 99999">
         <Lightgallery
           :settings="{ speed: 500, plugins: plugins, selector: '.lightimg' }"
           class="lightgallery m-b0"
@@ -35,7 +36,7 @@
             </div>
           </li>
         </Lightgallery>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

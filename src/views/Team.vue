@@ -53,7 +53,7 @@
 <script lang="ts">
 import CommonBanner from '@/elements/CommonBanner.vue'
 import { defineComponent } from 'vue'
-import bnr4 from '@/assets/images/banner/bnr4.jpg'
+import bnr4 from '@/assets/images/banner/bnr12.jpg'
 import bg2 from '@/assets/images/background/bg2.png'
 
 import teamPic1 from '@/assets/images/team/pic1.jpg'

@@ -32,6 +32,10 @@
           assicurando ai nostri clienti un servizio completo e personalizzato.
           Affidati a noi per realizzare il tuo progetto immobiliare con successo e serenità.
         </p>
+        <ul>
+                <li><h4>TITOLARE</h4>: Luca Procesi</li>
+                <li>Blogs</li>
+              </ul>
         <!-- <div class="accordion dz-accordion about-faq" id="aboutFaq">
           <div class="accordion-item">
             <h4 class="accordion-header">

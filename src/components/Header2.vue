@@ -7,9 +7,9 @@
     <div class="sticky-header main-bar-wraper navbar-expand-lg">
       <div class="main-bar clearfix">
         <div class="container clearfix">
-          <div class="logo-header mostion logo-light">
+          <div class="logo-header mostion logo-light" style="width: 20%;">
             <RouterLink to="/"
-              ><img class="header_logo2" src="@/assets/images/TH-3.jpg" alt=""
+              ><img class="header_logo2"  src="@/assets/images/TH-6.jpg" alt=""
             /></RouterLink>
           </div>
           <button
@@ -27,9 +27,9 @@
           <div class="extra-nav">
             <div class="extra-cell">
               <!-- Quik Search -->
-              <RouterLink class="search-link" id="quik-search-btn" to="?">
+              <!-- <RouterLink class="search-link" id="quik-search-btn" to="?">
                 <i class="flaticon-loupe"></i>
-              </RouterLink>
+              </RouterLink> -->
               <div class="menu-btn navicon" @click="sidebarShow = true">
                 <span></span>
                 <span></span>

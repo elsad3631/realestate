@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-lg-3 col-12 aos-item">
             <div class="widget widget_about">
-              <h4 class="footer-title">CONTACT</h4>
+              <h4 class="footer-title">CONTATTI</h4>
               <div class="widget_getintuch">
                 <ul>
                   <li>
@@ -27,17 +27,16 @@
           </div>
           <div class="offset-lg-1 col-lg-2 col-sm-4 col-6 aos-item">
             <div class="widget widget_services">
-              <h4 class="footer-title">OUR LINKS</h4>
+              <h4 class="footer-title">LINKS</h4>
               <ul>
                 <li><RouterLink to="/">Home</RouterLink></li>
-                <li><RouterLink to="/about-us">About Us</RouterLink></li>
-                <li><RouterLink to="/services">Services</RouterLink></li>
-                <li><RouterLink to="/team">Team</RouterLink></li>
-                <li><RouterLink to="/blog-grid">Blogs</RouterLink></li>
+                <li><RouterLink to="/about-us">Chi Siamo</RouterLink></li>
+                <li>Team</li>
+                <li>Blogs</li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-4 col-6 aos-item">
+          <!-- <div class="col-lg-3 col-sm-4 col-6 aos-item">
             <div class="widget widget_services">
               <h4 class="footer-title">OUR SERVICES</h4>
               <ul>
@@ -48,8 +47,8 @@
                 <li><RouterLink to="?">App Design</RouterLink></li>
               </ul>
             </div>
-          </div>
-          <div class="col-lg-3 col-sm-4 col-6 aos-item">
+          </div> -->
+          <!-- <div class="col-lg-3 col-sm-4 col-6 aos-item">
             <div class="widget widget_services">
               <h4 class="footer-title">OTHER LINKS</h4>
               <ul>
@@ -60,7 +59,7 @@
                 <li><RouterLink to="?">Support</RouterLink></li>
               </ul>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -75,13 +74,13 @@
               All rights reserved.</span
             >
           </div>
-          <div class="col-md-6 text-center text-md-end">
+          <!-- <div class="col-md-6 text-center text-md-end">
             <ul class="footer-link d-inline-block">
               <li><RouterLink to="?">About</RouterLink></li>
               <li><RouterLink to="?">Help Desk</RouterLink></li>
               <li><RouterLink to="?">Privacy Policy</RouterLink></li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

@@ -4,28 +4,39 @@
       <div class="col-lg-6">
         <div class="dz-media">
           <div class="img1 aos-item">
-            <img src="@/assets/images/about/pic1.jpg" alt="" />
+            <img src="@/assets/images/about/pic13.jpg" alt="" />
           </div>
           <div class="img2 aos-item">
-            <img src="@/assets/images/about/pic2.jpg" alt="" />
+            <img src="@/assets/images/about/pic14.jpg" alt="" />
           </div>
           <div class="img3 aos-item">
-            <img src="@/assets/images/about/pic3.jpg" alt="" />
+            <img src="@/assets/images/about/pic15.jpg" alt="" />
           </div>
         </div>
       </div>
       <div class="col-lg-6 align-self-center">
         <div class="year-exp">
-          <h2 class="year aos-item counter">25</h2>
-          <h4 class="text aos-item">Years Of Working Experience</h4>
+          <h2 class="year aos-item counter">15</h2>
+          <h4 class="text aos-item">Anni di esperienza lavorativa</h4>
         </div>
         <p class="m-b30 aos-item">
-          Donec lacus velit, volutpat a consequat quis, placerat vitae massa. Nulla facilisi. Fusce
-          ac odio justo. Phasellus a risus in libero feugiat aliquam quis nec metus. Sed vulputate
-          bibendum nulla, eu sodales magna gravida nec. Integer sit amet sollicitudin massa, a
-          blandit lectus. Vivamus lacinia justo non congue blandit.
+          Con oltre 15 anni di esperienza nel settore immobiliare,
+          la nostra società si distingue per la professionalità e l'affidabilità nella compravendita di immobili.
+          Specializzati nell'intermediazione di case residenziali e immobili commerciali,
+          offriamo soluzioni su misura per soddisfare le esigenze di ogni cliente. Inoltre,
+          ci occupiamo di investimenti immobiliari, aiutando privati e aziende a identificare le migliori opportunità sul mercato.
+          Il nostro team di esperti fornisce anche servizi di progettazione e consulenza edilizia,
+          garantendo la massima qualità in ogni fase del progetto.
+          Grazie alla nostra esperienza e alla nostra rete di contatti consolidata,
+          siamo in grado di gestire ogni aspetto della transazione immobiliare,
+          assicurando ai nostri clienti un servizio completo e personalizzato.
+          Affidati a noi per realizzare il tuo progetto immobiliare con successo e serenità.
         </p>
-        <div class="accordion dz-accordion about-faq" id="aboutFaq">
+        <ul> 
+                <li><h4>TITOLARE</h4>: Luca Procesi</li>
+                <li>Blogs</li>
+              </ul>
+        <!-- <div class="accordion dz-accordion about-faq" id="aboutFaq">
           <div class="accordion-item">
             <h4 class="accordion-header">
               <RouterLink
@@ -113,7 +124,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

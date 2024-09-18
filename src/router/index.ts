@@ -92,7 +92,44 @@ const router = createRouter({
       name: 'contact_us',
       component: () => import('../views/ContactUs.vue'),
       meta: { layout3: 'layout3' }
+    },
+    {
+      path: '/pratiche-edilizie',
+      name: 'pratiche_edilizie',
+      component: () => import('../views/services/details/ServicesDetailsPraticheEdilizie.vue'),
+      meta: { layout3: 'layout3' }
+    },
+    {
+      path: '/pratiche-catastali',
+      name: 'pratiche_catastali',
+      component: () => import('../views/services/details/ServicesDetailsPraticheCatastali.vue'),
+      meta: { layout3: 'layout3' }
+    },
+    {
+      path: '/perizie-stime-tribunale',
+      name: 'perizie_stime_tribunale',
+      component: () => import('../views/services/details/ServicesDetailsPerizieStimeTribunale.vue'),
+      meta: { layout3: 'layout3' }
+    },
+    {
+      path: '/investimenti-immobiliari',
+      name: 'investimenti_immobiliari',
+      component: () => import('../views/services/details/ServicesDetailsInvestimentiImmobiliari.vue'),
+      meta: { layout3: 'layout3' }
+    },
+    {
+      path: '/ristrutturazioni-servizi-finanziari',
+      name: 'ristrutturazioni_servizi_finanziari',
+      component: () => import('../views/services/details/ServicesDetailsRistrutturazioniServiziFinanziari.vue'),
+      meta: { layout3: 'layout3' }
+    },
+    {
+      path: '/servizi-vari',
+      name: 'servizi_vari',
+      component: () => import('../views/services/details/ServicesDetailsServizi-Vari.vue'),
+      meta: { layout3: 'layout3' }
     }
+
   ]
 })
 

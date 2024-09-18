@@ -32,7 +32,7 @@
                 <h6 class="title">15/B Miranda House New York,US</h6>
               </div>
               <!-- Quik Search -->
-              <div class="search-inhead">
+              <!-- <div class="search-inhead">
                 <div class="dz-quik-search">
                   <form action="#">
                     <input
@@ -48,7 +48,7 @@
                 <RouterLink class="search-link" id="quik-search-btn" to="?">
                   <i class="flaticon-loupe"></i>
                 </RouterLink>
-              </div>
+              </div> -->
               <div class="menu-btn navicon" @click="HeaderSidebarShow">
                 <span></span>
                 <span></span>

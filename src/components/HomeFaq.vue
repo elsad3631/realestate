@@ -1,12 +1,12 @@
 <template>
-  <section
+  <!-- <section
     class="section-full content-inner overflow-hidden"
     :style="`   background-image: url(${bg1});
       background-position: left top;
       background-size: 100%;
       background-repeat: no-repeat;`"
   >
-    <!-- <div class="container">
+    <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 m-b30 aos-item">
           <div class="twentytwenty-img-area">
@@ -155,11 +155,11 @@
           </div>
         </div>
       </div>
-    </div> -->
-  </section>
+    </div> 
+  </section> -->
 </template>
 
-<script lang="ts">
+<!-- <script lang="ts">
 import { defineComponent } from 'vue'
 import bg1 from '@/assets/images/background/bg1.png'
 import { ImgComparisonSlider } from '@img-comparison-slider/vue'
@@ -171,4 +171,4 @@ export default defineComponent({
     return { bg1 }
   }
 })
-</script>
+</script> -->

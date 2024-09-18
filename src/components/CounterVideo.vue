@@ -37,7 +37,7 @@
   </div> -->
 </template>
 
-<script lang="ts">
+<!-- <script lang="ts">
 import { defineComponent } from 'vue'
 import CountUp from 'vue-countup-v3'
 import { RouterLink } from 'vue-router'
@@ -56,5 +56,5 @@ export default defineComponent({
     }
   }
 })
-</script>
+</script> -->
 

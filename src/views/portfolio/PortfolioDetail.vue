@@ -23,7 +23,7 @@
   </div>
   <div class="page-content bg-white">
     <CommonBanner :img="bnr7" title="Portfolio Detail" text="Portfolio Detail" />
-    <section
+    <!-- <section
       class="section-full content-inner-2 port-detail"
       :style="`background-image: url(${bg2});
         background-position: right bottom;
@@ -93,7 +93,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <div class="content-inner-2">
       <div class="container">
         <Lightgallery
@@ -101,7 +101,7 @@
           class="row lightgallery"
         >
           <div class="col-lg-12 col-md-12 m-b30 aos-item">
-            <div class="video-bx content-media style-2 shadow">
+            <!-- <div class="video-bx content-media style-2 shadow">
               <img src="@/assets/images/video/pic2-2.jpg" alt="" />
               <div class="video-btn aos-item aos-init aos-animate">
                 <RouterLink
@@ -112,7 +112,7 @@
                   ><i class="fas fa-play"></i
                 ></RouterLink>
               </div>
-            </div>
+            </div> -->
           </div>
           <div
             class="col-lg-4 col-md-4 m-b30 aos-item"
@@ -135,10 +135,10 @@
     </div>
     <section class="content-inner-1">
       <div class="container">
-        <div class="section-head style-1 text-center">
+        <!-- <div class="section-head style-1 text-center">
           <h6 class="sub-title text-primary">OUR PORTFOLIOS</h6>
           <h2 class="title">Our Latest Projects</h2>
-        </div>
+        </div> -->
       </div>
 
       <div class="container-fluid">
@@ -158,7 +158,7 @@
             :autoplay="{ delay: 1500 }"
             :speed="1500"
           >
-            <SwiperSlide
+            <!-- <SwiperSlide
               class="swiper-slide"
               v-for="({ img, subtitle, title, text, setStyle }, ind) in ourBlog"
               :key="ind"
@@ -179,7 +179,7 @@
                   </h4>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> -->
           </Swiper>
         </Lightgallery>
       </div>
@@ -212,41 +212,41 @@ export default defineComponent({
       bnr7,
       bg2,
       galleryBlog: [{ img: service_pic1 }, { img: service_pic2 }, { img: service_pic3 }],
-      ourBlog: [
-        {
-          img: work_pic1,
-          subtitle: 'INTERIOR DESIGN',
-          title: 'Modern House Interior',
-          text: 'New York',
-          setStyle: 'mt-5'
-        },
-        {
-          img: work_pic2,
-          subtitle: 'ARCHITECTURAL',
-          title: 'Residential Project,',
-          text: 'Paris'
-        },
-        {
-          img: work_pic3,
-          subtitle: 'INTERIOR DESIGN',
-          title: 'Modern Family House,',
-          text: 'Italy',
-          setStyle: 'mt-5'
-        },
-        {
-          img: work_pic4,
-          subtitle: 'ARCHITECTURAL',
-          title: 'Residential Project, ',
-          text: 'Paris'
-        },
-        {
-          img: work_pic2,
-          subtitle: 'ARCHITECTURAL',
-          title: 'Residential Project,',
-          text: 'Paris',
-          setStyle: 'mt-5'
-        }
-      ],
+      // ourBlog: [
+      //   {
+      //     img: work_pic1,
+      //     subtitle: 'INTERIOR DESIGN',
+      //     title: 'Modern House Interior',
+      //     text: 'New York',
+      //     setStyle: 'mt-5'
+      //   },
+      //   {
+      //     img: work_pic2,
+      //     subtitle: 'ARCHITECTURAL',
+      //     title: 'Residential Project,',
+      //     text: 'Paris'
+      //   },
+      //   {
+      //     img: work_pic3,
+      //     subtitle: 'INTERIOR DESIGN',
+      //     title: 'Modern Family House,',
+      //     text: 'Italy',
+      //     setStyle: 'mt-5'
+      //   },
+      //   {
+      //     img: work_pic4,
+      //     subtitle: 'ARCHITECTURAL',
+      //     title: 'Residential Project, ',
+      //     text: 'Paris'
+      //   },
+      //   {
+      //     img: work_pic2,
+      //     subtitle: 'ARCHITECTURAL',
+      //     title: 'Residential Project,',
+      //     text: 'Paris',
+      //     setStyle: 'mt-5'
+      //   }
+      // ],
       module: [Autoplay]
     }
   },

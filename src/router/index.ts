@@ -94,9 +94,9 @@ const router = createRouter({
       meta: { layout3: 'layout3' }
     },
     {
-      path: '/pratiche-edilizie',
-      name: 'pratiche_edilizie',
-      component: () => import('../views/services/details/ServicesDetailsPraticheEdilizie.vue'),
+      path: '/pratiche-urbanistiche',
+      name: 'pratiche_urbanistiche',
+      component: () => import('../views/services/details/ServicesDetailsPraticheUrbanistiche.vue'),
       meta: { layout3: 'layout3' }
     },
     {
@@ -118,9 +118,9 @@ const router = createRouter({
       meta: { layout3: 'layout3' }
     },
     {
-      path: '/ristrutturazioni-servizi-finanziari',
-      name: 'ristrutturazioni_servizi_finanziari',
-      component: () => import('../views/services/details/ServicesDetailsRistrutturazioniServiziFinanziari.vue'),
+      path: '/edilizia',
+      name: 'edilizia',
+      component: () => import('../views/services/details/ServicesDetailsEdilizia.vue'),
       meta: { layout3: 'layout3' }
     },
     {

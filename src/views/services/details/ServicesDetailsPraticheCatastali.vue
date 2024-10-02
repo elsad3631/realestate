@@ -21,6 +21,7 @@
                <p>•	Frazionamenti catastali</p>
                <p>•	Cambio di destinazione d’uso</p>
                <p>•	Pratiche per la rettifica di errori catastali</p>
+               <p>•	Dichiarazione di successione</p>
             </div>
             <!-- <RouterLink to="/blog-details" class="btn btn-primary btn-rounded hover-icon">
               <span>READ MORE</span>

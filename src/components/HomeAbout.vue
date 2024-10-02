@@ -2,17 +2,17 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <div class="dz-media">
-          <div class="img1 aos-item">
+        <!-- <div class="dz-media"> -->
+          <!-- <div class="img1 aos-item">
             <img src="@/assets/images/about/pic13.jpg" alt="" />
           </div>
           <div class="img2 aos-item">
             <img src="@/assets/images/about/pic14.jpg" alt="" />
+          </div> -->
+          <div class="img3 aos-item me-5">
+            <img src="@/assets/images/about/pic16.jpg" alt="" />
           </div>
-          <div class="img3 aos-item">
-            <img src="@/assets/images/about/pic15.jpg" alt="" />
-          </div>
-        </div>
+        <!-- </div> -->
       </div>
       <div class="col-lg-6 align-self-center">
         <div class="year-exp">
@@ -33,8 +33,8 @@
           Affidati a noi per realizzare il tuo progetto immobiliare con successo e serenità.
         </p>
         <ul> 
-                <li><h4>TITOLARE</h4>: Luca Procesi</li>
-                <li>Blogs</li>
+                <li><h4>TITOLARE : Luca Procesi</h4></li>
+                <li><h4>RESPONSABILE AMMINISTRATIVO : Marika Grimaldi</h4></li>
               </ul>
         <!-- <div class="accordion dz-accordion about-faq" id="aboutFaq">
           <div class="accordion-item">

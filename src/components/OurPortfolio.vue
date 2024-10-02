@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid mb-5">
     <Lightgallery :settings="{ speed: 500, plugins: plugins, selector: '.lightimg' }">
       <Swiper
         class="swiper-container swiper-portfolio lightgallery aos-item"
@@ -18,7 +18,7 @@
       >
         <SwiperSlide
           class="swiper-slide"
-          v-for="({ img, subtitle, title, text, setStyle }, ind) in ourBlog"
+          v-for="({ img, setStyle }, ind) in ourBlog"
           :key="ind"
         >
           <div :class="`dz-box overlay style-1 ${setStyle}`">
@@ -26,22 +26,16 @@
               <img :src="img" alt="" />
             </div>
             <div class="dz-info">
-              <span :data-src="img" class="view-btn lightimg" title="INTERIOR DESIGN">
+              <span :data-src="img" class="view-btn lightimg" >
                 <img :src="img" alt="" style="display: none" />
               </span>
-              <h6 class="sub-title">{{ subtitle }}</h6>
-              <h4 class="title m-b15">
-                <RouterLink to="/portfolio-details"
-                  >{{ title }}<span>{{ text }}</span></RouterLink
-                >
-              </h4>
             </div>
           </div>
         </SwiperSlide>
       </Swiper>
     </Lightgallery>
   </div>
-  <div class="content-inner bg-secondary subscribe-area">
+  <!-- <div class="content-inner bg-secondary subscribe-area">
     <div class="container">
       <div class="row subscribe-content">
         <div class="col-lg-6 aos-item">
@@ -82,7 +76,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script lang="ts">
@@ -125,35 +119,35 @@ export default defineComponent({
       ourBlog: [
         {
           img: work_pic1,
-          subtitle: 'INTERIOR DESIGN',
-          title: 'Modern House Interior',
-          text: 'New York',
+          // subtitle: 'INTERIOR DESIGN',
+          // title: 'Modern House Interior',
+          // text: 'New York',
           setStyle: 'mt-5'
         },
         {
           img: work_pic2,
-          subtitle: 'ARCHITECTURAL',
-          title: 'Residential Project,',
+          // subtitle: 'ARCHITECTURAL',
+          // title: 'Residential Project,',
           text: 'Paris'
         },
         {
           img: work_pic3,
-          subtitle: 'INTERIOR DESIGN',
-          title: 'Modern Family House,',
-          text: 'Italy',
+          // subtitle: 'INTERIOR DESIGN',
+          // title: 'Modern Family House,',
+          // text: 'Italy',
           setStyle: 'mt-5'
         },
         {
           img: work_pic4,
-          subtitle: 'ARCHITECTURAL',
-          title: 'Residential Project, ',
-          text: 'Paris'
+          // subtitle: 'ARCHITECTURAL',
+          // title: 'Residential Project, ',
+          // text: 'Paris'
         },
         {
           img: work_pic2,
-          subtitle: 'ARCHITECTURAL',
-          title: 'Residential Project,',
-          text: 'Paris',
+          // subtitle: 'ARCHITECTURAL',
+          // title: 'Residential Project,',
+          // text: 'Paris',
           setStyle: 'mt-5'
         }
       ],

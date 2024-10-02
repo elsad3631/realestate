@@ -32,10 +32,39 @@
           assicurando ai nostri clienti un servizio completo e personalizzato.
           Affidati a noi per realizzare il tuo progetto immobiliare con successo e serenità.
         </p>
+<<<<<<< HEAD
         <ul> 
                 <li><h4>TITOLARE : Luca Procesi</h4></li>
                 <li><h4>RESPONSABILE AMMINISTRATIVO : Marika Grimaldi</h4></li>
               </ul>
+=======
+        <ul>
+    <li style="margin-top: 10px;">
+        <h6 style="display: inline; margin-right: 10px;">Titolare:</h6>
+        <span>Luca Procesi</span>
+    </li>
+    <li style="margin-top: 10px;">
+        <h6 style="display: inline; margin-right: 10px;">Responsabile Amministrativo:</h6>
+        <span>Marika Grimaldi</span>
+    </li>
+    <li style="margin-top: 10px;">
+        <h6 style="display: inline; margin-right: 10px;">Coordinamento Pratiche Urbanistiche:</h6>
+        <span>Cristina del prete</span>
+    </li>
+    <li style="display: flex; align-items: flex-start; margin-top: 10px;">
+        <h6 style="margin-right: 10px;">Consulenti:</h6>
+        <div style="display: flex; flex-direction: column; align-items: flex-start;">
+            <span>Pierluigi Minna</span>
+            <span>Omar Verducci</span>
+            <span>Luigi D'Arienzo</span>
+            <span>Valerio Bonafede</span>
+        </div>
+    </li>
+</ul>
+
+
+
+>>>>>>> 9bfaeabe0511934693cc52734ea1f1c9c2647032
         <!-- <div class="accordion dz-accordion about-faq" id="aboutFaq">
           <div class="accordion-item">
             <h4 class="accordion-header">

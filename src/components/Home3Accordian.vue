@@ -7,7 +7,7 @@
             <!-- <h6 class="sub-title text-primary">Services</h6>
             <h2 class="title">Frequently Asked Question</h2> -->
           </div>
-          <div class="accordion dz-accordion accordion-sm style-1 mt-5" id="accordionFaq">
+          <!-- <div class="accordion dz-accordion accordion-sm style-1 mt-5" id="accordionFaq">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <RouterLink
@@ -95,38 +95,9 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <RouterLink
-                  to="?"
-                  class="accordion-button collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour"
-                  aria-expanded="false"
-                  aria-controls="collapseFour"
-                >
-                  What makes a strong password?
-                  <span class="toggle-close"></span>
-                </RouterLink>
-              </h2>
-              <div
-                id="collapseFour"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingFour"
-                data-bs-parent="#accordionFaq"
-              >
-                <div class="accordion-body">
-                  <p class="m-b0">
-                    There are many variations of passages of Lorem Ipsum available, but the majority
-                    have suffered alteration in some form, by injected humour.
-                  </p>
-                </div>
-              </div>
-            </div> -->
-          </div>
+          </div> -->
         </div>
-        <div class="col-lg-6">
-          <div class="dz-media">
+        <!-- <div class="col-lg-6">
             <div class="img1 aos-item">
               <img src="@/assets/images/about/pic8.jpg" alt="" />
             </div>
@@ -135,19 +106,23 @@
             </div>
             <div class="img3 aos-item">
               <img src="@/assets/images/about/pic10.jpg" alt="" />
-            </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
+  <OurPortfolio />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import OurPortfolio from '@/components/OurPortfolio.vue'
+
 
 export default defineComponent({
   name: 'accordian_',
+  components: {OurPortfolio },
+
   setup() {
     return {}
   }

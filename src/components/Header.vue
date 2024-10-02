@@ -73,16 +73,6 @@
                     ><i class="fab fa-instagram"></i
                   ></a>
                 </li>
-                <li>
-                  <a href="https://twitter.com/dexignzones/" target="_blank"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://www.youtube.com/@dexignzone1723" target="_blank"
-                    ><i class="fab fa-youtube"></i
-                  ></a>
-                </li>
               </ul>
             </div>
           </div>

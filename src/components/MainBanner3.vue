@@ -12,7 +12,7 @@
           prevEl: '.btn-prev',
           nextEl: '.btn-next'
         }"
-        :autoplay="{ delay: 4000 }"
+        :autoplay="{ delay: 8000 }"
       >
         <SwiperSlide class="swiper-slide" v-for="({ img,title,description }, ind) in mainSlider" :key="ind">
           <div class="silder-content" data-swiper-parallax="-40%">
@@ -20,7 +20,6 @@
               <div class="inner-content row align-items-center g-0">
                 <div class="col-md-6">
                   <div class="inner-text">
-                    <!-- <h6 class="text text-primary">Cosa facciamo?</h6> -->
                     <h4 class="title">
                       {{title}}<br />
                     </h4>
@@ -28,20 +27,6 @@
                       {{description}} 
                     </p>
                     <div>
-                      <!-- <RouterLink
-                        to="/services"
-                        class="btn btn-primary btn-rounded btn-md hover-icon"
-                      >
-                        <span>Scopri di più</span>
-                        <i class="fas fa-arrow-right"></i>
-                      </RouterLink> -->
-                      <!-- <RouterLink
-                        to="/services"
-                        class="btn btn-primary btn-rounded m-l15 btn-border btn-md hover-icon"
-                      >
-                        <span>I nostri servizi</span>
-                        <i class="fas fa-arrow-right"></i>
-                      </RouterLink> -->
                     </div>
                   </div>
                 </div>
@@ -81,11 +66,9 @@ export default defineComponent({
   components: { Swiper, SwiperSlide },
   setup() {
     return {
-      mainSlider: [{ img: slide_pic1, title:'Progettazioni', description:`Operiamo tramite sistemi informativi computerizzati (GIS)
-                      con acquisizione, registrazione, analisi,
-                      per visualizzazione e restituzione di informazioni
-                      derivanti da dati geografici (geo-riferiti).
-                      Mappature con droni, telecamere 360°, misurazioni GPS.` },
+      mainSlider: [{ img: slide_pic1, title:'Progettazioni', description:`Offriamo servizi di progettazione per nuovi edifici e ristrutturazioni.
+                      Dall’ideazione alla realizzazione, gestiamo tutte le fasi progettuali,
+                      garantendo soluzioni innovative e funzionali.` },
       { img: slide_pic2, title:'Edilizia', description:`La nostra società immobiliare offre servizi completi di edilizia,
                       dalla progettazione alla realizzazione. Con un team di professionisti qualificati,
                       ci occupiamo di costruzioni, ristrutturazioni e manutenzioni. 

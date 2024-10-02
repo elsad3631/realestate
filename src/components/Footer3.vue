@@ -31,8 +31,6 @@
               <ul>
                 <li><RouterLink to="/">Home</RouterLink></li>
                 <li><RouterLink to="/about-us">Chi Siamo</RouterLink></li>
-                <li>Team</li>
-                <li>Blogs</li>
               </ul>
             </div>
           </div>

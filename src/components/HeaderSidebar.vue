@@ -17,7 +17,7 @@
         <h4>I Nostri Servizi</h4>
         <div class="dz-separator style-1 text-primary mb-0"></div>
       </div>
-      <RouterLink to="/pratiche-edilizie" class="btn btn-primary btn-sm btn-rounded">Pratiche Edilizie</RouterLink>
+      <RouterLink to="/pratiche-urbanistiche" class="btn btn-primary btn-sm btn-rounded">Pratiche Urbanistiche</RouterLink>
       <h1></h1>
       <RouterLink to="/pratiche-catastali" class="btn btn-primary btn-sm btn-rounded">Pratiche Catastali</RouterLink>
       <h2></h2>
@@ -25,7 +25,7 @@
       <h1></h1>
       <RouterLink to="/investimenti-immobiliari" class="btn btn-primary btn-sm btn-rounded">Investimenti Immobiliari</RouterLink>
       <h2></h2>
-      <RouterLink to="/ristrutturazioni-servizi-finanziari" class="btn btn-primary btn-sm btn-rounded">Ristrutturazioni e Servizi Finanziari</RouterLink>
+      <RouterLink to="/edilizia" class="btn btn-primary btn-sm btn-rounded">Edilizia</RouterLink>
       <h2></h2>
       <RouterLink to="/servizi-vari" class="btn btn-primary btn-sm btn-rounded">Servizi Vari</RouterLink>
       <!-- <div class="widget bg-white widget_gallery" style="z-index: 99999">

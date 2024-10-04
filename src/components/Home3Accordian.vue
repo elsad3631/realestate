@@ -135,14 +135,14 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import OurPortfolio from '@/components/OurPortfolio.vue'
-
+import bg1 from '@/assets/images/background/bg1.png'
 
 export default defineComponent({
   name: 'accordian_',
   components: {OurPortfolio },
 
   setup() {
-    return {}
+    return {bg1}
   }
 })
 </script>

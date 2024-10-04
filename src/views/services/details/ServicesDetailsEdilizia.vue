@@ -29,10 +29,16 @@
               <i class="fas fa-arrow-right"></i>
             </RouterLink> -->
           </div>
-          <div class="col-lg-6 m-b30">
+          <div class="col-lg-6 m-b31">
             <div class="dz-media">
               <img
-                src="@/assets/images/banner/bnr18.jpg"
+                src="@/assets/images/banner/bnr31.jpg"
+                alt=""
+                class="img1 aos-item aos-init aos-animate"
+              />
+              <h1></h1>
+              <img
+                src="@/assets/images/banner/bnr30.jpg"
                 alt=""
                 class="img1 aos-item aos-init aos-animate"
               />

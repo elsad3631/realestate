@@ -87,6 +87,12 @@ import work_pic1 from '@/assets/images/work/work-1/pic-1.jpg'
 import work_pic2 from '@/assets/images/work/work-1/pic-2.jpg'
 import work_pic3 from '@/assets/images/work/work-1/pic-3.jpg'
 import work_pic4 from '@/assets/images/work/work-1/pic-4.jpg'
+import work_pic5 from '@/assets/images/work/work-1/pic-5.jpg'
+import work_pic6 from '@/assets/images/work/work-1/pic-6.jpg'
+import work_pic7 from '@/assets/images/work/work-1/pic-7.jpg'
+import work_pic8 from '@/assets/images/work/work-1/pic-8.jpg'
+import work_pic9 from '@/assets/images/work/work-1/pic-9.jpg'
+import work_pic10 from '@/assets/images/work/work-1/pic-10.jpg'
 import Lightgallery from 'lightgallery/vue'
 import lgThumbnail from 'lightgallery/plugins/thumbnail'
 import lgZoom from 'lightgallery/plugins/zoom'
@@ -144,7 +150,42 @@ export default defineComponent({
           // text: 'Paris'
         },
         {
-          img: work_pic2,
+          img: work_pic5,
+          // subtitle: 'ARCHITECTURAL',
+          // title: 'Residential Project,',
+          // text: 'Paris',
+          setStyle: 'mt-5'
+        },
+        {
+          img: work_pic6,
+          // subtitle: 'ARCHITECTURAL',
+          // title: 'Residential Project,',
+          // text: 'Paris',
+          setStyle: 'mt-5'
+        },
+        {
+          img: work_pic7,
+          // subtitle: 'ARCHITECTURAL',
+          // title: 'Residential Project,',
+          // text: 'Paris',
+          setStyle: 'mt-5'
+        },
+        {
+          img: work_pic8,
+          // subtitle: 'ARCHITECTURAL',
+          // title: 'Residential Project,',
+          // text: 'Paris',
+          setStyle: 'mt-5'
+        },
+        {
+          img: work_pic9,
+          // subtitle: 'ARCHITECTURAL',
+          // title: 'Residential Project,',
+          // text: 'Paris',
+          setStyle: 'mt-5'
+        },
+        {
+          img: work_pic10,
           // subtitle: 'ARCHITECTURAL',
           // title: 'Residential Project,',
           // text: 'Paris',

@@ -1,13 +1,13 @@
 <template>
-  <section class="section-full content-inner-1 about-bx5 over overflow-hidden">
+  <!-- <section class="section-full content-inner-1 about-bx5 over overflow-hidden">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 aos-item">
           <div class="section-head style-2">
-            <!-- <h6 class="sub-title text-primary">Services</h6>
-            <h2 class="title">Frequently Asked Question</h2> -->
+            <h6 class="sub-title text-primary">Services</h6>
+            <h2 class="title">Frequently Asked Question</h2>
           </div>
-          <!-- <div class="accordion dz-accordion accordion-sm style-1 mt-5" id="accordionFaq">
+          <div class="accordion dz-accordion accordion-sm style-1 mt-5" id="accordionFaq">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <RouterLink
@@ -95,9 +95,9 @@
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
-        <!-- <div class="col-lg-6">
+        <div class="col-lg-6">
             <div class="img1 aos-item">
               <img src="@/assets/images/about/pic8.jpg" alt="" />
             </div>
@@ -107,10 +107,28 @@
             <div class="img3 aos-item">
               <img src="@/assets/images/about/pic10.jpg" alt="" />
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
-  </section>
+  </section> -->
+  <section class="content-inner-2" :style="`background-image: url(${bg1});`">
+      <div class="container">
+        <div class="row section-head-bx align-items-center">
+          <div class="col-md-8">
+            <div class="section-head style-1">
+              <h6 class="sub-title text-primary">IL NOSTRO PORTAFOGLIO</h6>
+              <h2 class="title">ULTIMI PROGETTI</h2>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 text-start text-md-end mb-4 mb-md-0">
+            <RouterLink to="/portfolio" class="btn-link"
+              >See All Projects <i class="fas fa-plus scale08"></i
+            ></RouterLink>
+          </div> -->
+        </div>
+      </div>
+      <!-- <OurPortfolio /> -->
+    </section>
   <OurPortfolio />
 </template>
 

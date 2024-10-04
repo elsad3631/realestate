@@ -135,10 +135,10 @@
     </div>
     <section class="content-inner-1">
       <div class="container">
-        <!-- <div class="section-head style-1 text-center">
+        <div class="section-head style-1 text-center">
           <h6 class="sub-title text-primary">OUR PORTFOLIOS</h6>
           <h2 class="title">Our Latest Projects</h2>
-        </div> -->
+        </div>
       </div>
 
       <div class="container-fluid">

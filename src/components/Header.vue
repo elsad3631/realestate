@@ -63,16 +63,16 @@
             <Menu />
             <div class="dz-social-icon">
               <ul>
-                <li>
+                <!-- <li>
                   <a href="https://www.facebook.com/dexignzone/" target="_blank"
                     ><i class="fab fa-facebook-f"></i
                   ></a>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                   <a href="https://www.instagram.com/dexignzone/" target="_blank"
                     ><i class="fab fa-instagram"></i
                   ></a>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>

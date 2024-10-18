@@ -41,17 +41,17 @@
                     amet dignissim orci, eget laoreet eros.
                   </p>
                   <ul class="social-list style-1">
-                    <li>
+                    <!-- <li>
                       <a href="https://www.facebook.com/dexignzone/" target="_blank"
                         ><i class="fab fa-facebook-f"></i
                       ></a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/dexignzone/" target="_blank"
+                    </li> -->
+                    <!-- <li>
+                      <a href="https://www.instagram.com/thinkhome.italia/" target="_blank"
                         ><i class="fab fa-instagram"></i
                       ></a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                       <a href="https://twitter.com/dexignzones/" target="_blank"
                         ><i class="fab fa-twitter"></i
                       ></a>
@@ -60,7 +60,7 @@
                       <a href="https://www.youtube.com/@dexignzone1723" target="_blank"
                         ><i class="fab fa-youtube"></i
                       ></a>
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
               </div>

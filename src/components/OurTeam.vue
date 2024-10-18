@@ -20,17 +20,14 @@
           <div class="dz-team style-3 text-center m-b30 overlay-shine aos-item">
             <div class="dz-media">
               <RouterLink to="?"><img :src="img" alt="" /></RouterLink>
-              <ul class="team-social">
+              <!-- <ul class="team-social">
                 <li>
                   <RouterLink to="?"><i class="fab fa-facebook-f"></i></RouterLink>
                 </li>
                 <li>
                   <RouterLink to="?"><i class="fab fa-instagram"></i></RouterLink>
                 </li>
-                <li>
-                  <RouterLink to="?"><i class="fab fa-twitter"></i></RouterLink>
-                </li>
-              </ul>
+               </ul> -->
             </div>
             <div class="dz-content m-t20">
               <h6 class="dz-position line text-primary">{{ name }}</h6>

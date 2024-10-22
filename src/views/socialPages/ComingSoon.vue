@@ -5,7 +5,7 @@
         <div class="logo">
           <RouterLink to="/"><img src="@/assets/images/logo-icon.png" alt="" /></RouterLink>
         </div>
-        <ul class="dz-social-icon">
+        <!-- <ul class="dz-social-icon">
           <li>
             <RouterLink to="?"><span>Facebook</span></RouterLink>
           </li>
@@ -15,7 +15,7 @@
           <li>
             <RouterLink to="?"><span>Linkedin</span></RouterLink>
           </li>
-        </ul>
+        </ul> -->
       </div>
       <div class="clearfix dz-coming-bx">
         <div class="dz-content">

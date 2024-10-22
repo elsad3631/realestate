@@ -22995,6 +22995,7 @@ ul a.rsswidget:hover {
   }
 }
 .silder-three .inner-content p {
+  padding-right: 25px;
   font-size: 24px;
   margin-bottom: 50px;
   color: #fff;
@@ -25849,6 +25850,8 @@ pre {
   .site-header .extra-nav {
     height: 80px;
   }
+  .site-header .extra-nav #quik-search-btn {
+    cursor: default;}
 }
 @media only screen and (max-width: 1680px) {
   .site-header .extra-nav {
@@ -26029,7 +26032,7 @@ pre {
   font-weight: 900;
   font-family: 'Font Awesome 5 Free';
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 961px) {
   .header-nav .nav > li.has-mega-menu:after {
     content: '\f054';
     background-color: var(--primary);
@@ -26766,7 +26769,7 @@ pre {
 @media only screen and (min-width: 991px) {
   .site-header.style-2 .header-nav .nav > li > a:after {
     color: var(--primary);
-    display: block;
+    display: inline;
     position: absolute;
     right: -3px;
     top: calc(50% - 5px);
@@ -26787,7 +26790,7 @@ pre {
   }
 }
 
-.site-header.style-2 .header-nav .nav > li:hover > a,
+/* .site-header.style-2 .header-nav .nav > li:hover > a, */
 .site-header.style-2 .header-nav .nav > li.active > a {
   color: var(--primary);
 }

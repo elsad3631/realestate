@@ -18,11 +18,11 @@
         <div class="dz-separator style-1 text-primary mb-0"></div>
       </div>
       <RouterLink to="/pratiche-urbanistiche" class="btn btn-primary btn-sm btn-rounded">Pratiche Urbanistiche</RouterLink>
-      <h1></h1>
+      <h2></h2>
       <RouterLink to="/pratiche-catastali" class="btn btn-primary btn-sm btn-rounded">Pratiche Catastali</RouterLink>
       <h2></h2>
       <RouterLink to="/perizie-stime-tribunale" class="btn btn-primary btn-sm btn-rounded">Perizie, Stime e Tribunale</RouterLink>
-      <h1></h1>
+      <h2></h2>
       <RouterLink to="/investimenti-immobiliari" class="btn btn-primary btn-sm btn-rounded">Investimenti Immobiliari</RouterLink>
       <h2></h2>
       <RouterLink to="/edilizia" class="btn btn-primary btn-sm btn-rounded">Edilizia</RouterLink>
@@ -69,17 +69,17 @@ export default defineComponent({
   data: () => ({
     plugins: [lgThumbnail, lgZoom]
   }),
-  setup() {
-    return {
-      GalleryBlog: [
-        { img: service_pic1 },
-        { img: service_pic2 },
-        { img: service_pic3 },
-        { img: service_pic4 },
-        { img: service_pic5 },
-        { img: service_pic6 }
-      ]
-    }
-  }
+  // setup() {
+  //   return {
+  //     GalleryBlog: [
+  //       { img: service_pic1 },
+  //       { img: service_pic2 },
+  //       { img: service_pic3 },
+  //       { img: service_pic4 },
+  //       { img: service_pic5 },
+  //       { img: service_pic6 }
+  //     ]
+  //   }
+  // }
 })
 </script>

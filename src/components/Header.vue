@@ -24,15 +24,15 @@
             <span></span>
             <span></span>
           </button>
-          <!-- Extra Nav -->
-          <div class="extra-nav">
+           Extra Nav 
+          <!-- <div class="extra-nav">
             <div class="extra-cell">
               <div class="extra-icon-box">
                 <i class="fas fa-map-marker-alt"></i>
                 <h6 class="title">15/B Miranda House New York,US</h6>
-              </div>
-              <!-- Quik Search -->
-              <!-- <div class="search-inhead">
+              </div> 
+              Quik Search 
+              <div class="search-inhead">
                 <div class="dz-quik-search">
                   <form action="#">
                     <input
@@ -48,33 +48,33 @@
                 <RouterLink class="search-link" id="quik-search-btn" to="?">
                   <i class="flaticon-loupe"></i>
                 </RouterLink>
-              </div> -->
+              </div>
               <div class="menu-btn navicon" @click="HeaderSidebarShow">
                 <span></span>
                 <span></span>
                 <span></span>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="header-nav navbar-collapse justify-content-end">
             <div class="logo-header logo-dark">
               <RouterLink to="?"><img src="@/assets/images/logo.png" alt="" /></RouterLink>
             </div>
             <Menu />
-            <div class="dz-social-icon">
+            <!-- <div class="dz-social-icon">
               <ul>
-                <!-- <li>
+                <li>
                   <a href="https://www.facebook.com/dexignzone/" target="_blank"
                     ><i class="fab fa-facebook-f"></i
                   ></a>
-                </li> -->
-                <!-- <li>
+                </li>
+                <li>
                   <a href="https://www.instagram.com/dexignzone/" target="_blank"
                     ><i class="fab fa-instagram"></i
                   ></a>
-                </li> -->
+                </li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

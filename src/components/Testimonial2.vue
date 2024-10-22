@@ -47,7 +47,7 @@
   </Swiper> -->
 </template>
 
-<script lang="ts">
+<!-- <script lang="ts">
 import { defineComponent } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay } from 'swiper/modules'
@@ -73,6 +73,6 @@ export default defineComponent({
     }
   }
 })
-</script>
+</script> -->
 
 <style scoped></style>

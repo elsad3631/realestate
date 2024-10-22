@@ -7,7 +7,7 @@
         ref="subMenuRef"
         @click="
           () => {
-            openSubMenu(ind)
+            openSubMenu(ind-1)
           }
         "
         :key="ind"
@@ -87,7 +87,7 @@ export default defineComponent({
            { child: 'Pratiche Catastali', to: '/pratiche-catastali' },
            { child: 'Perizie, Stime e Tribunale', to: '/perizie-stime-tribunale' },
            { child: 'Investimenti Immobiliari', to: '/investimenti-immobiliari' },
-           { child: 'Edilizia', to: '/Edilizia' },
+           { child: 'Edilizia', to: '/edilizia' },
            { child: 'Servizi Vari', to: '/servizi-vari' }
          ] },
       { menu: 'Chi siamo', className: 'menu', to: '/about-us' },

@@ -27,7 +27,10 @@
                 <li>
                   <RouterLink to="?"><i class="fab fa-instagram"></i></RouterLink>
                 </li>
-               </ul> -->
+                <li>
+                  <RouterLink to="?"><i class="fab fa-twitter"></i></RouterLink>
+                </li>
+              </ul> -->
             </div>
             <div class="dz-content m-t20">
               <h6 class="dz-position line text-primary">{{ name }}</h6>
